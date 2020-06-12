@@ -1,1 +1,39 @@
+body:{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    margin: auto;
+}
 
+header{
+    width: 796px;
+    height: 150px;
+    border:1px solid black;
+    margin: 1px;
+}
+
+.logo{
+    height: 150px;
+    margin: 15px;
+    float: left;
+    
+}
+.menu{
+    background-color: brown;
+    width: 600px;
+    float: right;
+}
+
+.menu ul li{
+    list-style: none;
+    display: inline-block;
+    text-align: right;
+}
+
+.menu ul li a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    color:#17a2ad;
+    padding: 60px 50px;
+    text-decoration: none;
+}
