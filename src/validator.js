@@ -35,8 +35,17 @@ const validator = {
       return false;
     }
   },
+
+
   maskify: function (creditCardNumber) {
-    return "any";
+    let maskify = ""
+    for (let indice = 0; indice < creditCardNumber.length - 4; indice++) {
+      maskify = maskify + "#";
+    }
+
+    return maskify + creditCardNumber.substring(creditCardNumber.length - 4, creditCardNumber.length);
   }
+
 };
+
 export default validator;
