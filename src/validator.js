@@ -42,7 +42,6 @@ const validator = {
     for (let indice = 0; indice < creditCardNumber.length - 4; indice++) {
       maskify = maskify + "#";
     }
-
     return maskify + creditCardNumber.substring(creditCardNumber.length - 4, creditCardNumber.length);
   }
 
