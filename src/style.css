@@ -13,7 +13,6 @@
 .contenedor_logoslogan{
   height: 100px;
   width: 100%;
-  margin:auto;
   display: flex;
   justify-content: space-between;
  
@@ -44,7 +43,7 @@ section{
   }
   
   
-  .imagenbanner{
+ .imagenbanner{
   width: 100%;
   height: 300px;
   background-image: url(imagenes/bannerplayita.png);
@@ -93,11 +92,7 @@ section{
    padding: 10px;
   }
   
-  #salida{
-  border-color: white;
-  border-style: none;
-  }
-  
+   
   .fllegada{
    background-color: white;
    float: right;
@@ -105,23 +100,43 @@ section{
    padding: 10px;
   }
   
-  #llegada{
-  border-color: white;
-  border-style: none;
-  }
-
   
+  
+  main{
+    display: flex;
+    justify-content: space-around;
+   
 
-  .contenedorphotos{
-  display:flex;
+}
+
+  /*.contenedorphotos{
+
+  display: flex;
   justify-content: space-around;
   align-items: center;
     
-  }
+  }*/
+   
+  
+  .photo1{
+    background-color: brown;
     
-  .photo1 .photo2 .photo3{
-  display: flex;
-  border-radius: 5%;
+  }
+
+  .photo2{
+    background-color: chartreuse;
+  }
+
+  .photo3{
+    background-color: darkcyan;
+  }
+  
+  .photo4{
+    background-color: darkorange;
+  }
+  /*.photo1 .photo2 .photo3{
+    width: 50px;
+    height: 50px;
     }
 
 
