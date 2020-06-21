@@ -18,11 +18,9 @@ body{
 .contenedor_logoslogan{
   height: 100px;
   width: 100%;
-  margin:auto;
   display: flex;
   justify-content: space-between;
-  align-items: flex-center;
-
+ 
 }
 
 .logo{
@@ -48,20 +46,19 @@ body{
 
 section{
   width: 100%;
-  height: 500px;
+  height: 400px;
   
   
   }
   
   
-  .imagenbanner{
+ .imagenbanner{
   width: 100%;
   height: 300px;
   background-image: url(imagenes/bannerplayita.png);
   background-color: rgb(141, 218, 241); 
   background-size: cover;
   }
-
 
 
   
@@ -100,11 +97,7 @@ section{
    padding: 10px;
   }
   
-  #salida{
-  border-color: white;
-  border-style: none;
-  }
-  
+   
   .fllegada{
    background-color: white;
    float: right;
@@ -112,22 +105,53 @@ section{
    padding: 10px;
   }
   
-  #llegada{
-  border-color: white;
-  border-style: none;
-  }
-
-  .piepage{
-    background: #e7f5f3;
+  
+  
+  main{
     display: flex;
     justify-content: space-around;
    }
 
-   .contenedorphotos{
-    display: flex;
-    justify-content: space-between;
-   }
+   .ciudad{
+    transition: 1s;
+  }
+
+.ciudad:hover{
+  transform: scale(1.2);
+}
+
+   
+  /*.contenedorphotos{
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+    
+  }*/
+   
   
+  /*.photo1{
+    background-color: brown;
+    
+  }
+
+  .photo2{
+    background-color: chartreuse;
+  }
+
+  .photo3{
+    background-color: darkcyan;
+  }
+  
+  .photo4{
+    background-color: darkorange;
+  }
+  /*.photo1 .photo2 .photo3{
+    width: 50px;
+    height: 50px;
+    }
+
+
   /*
   .ciudades{
     margin-top: 100px;
