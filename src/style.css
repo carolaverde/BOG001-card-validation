@@ -1,13 +1,18 @@
 #box{
-  width: 100%;
-  height: 50px;
-  background-color: #cfdfdd;
+  width: 60%;
+  height: 36px;
+  background: #e7f5f3;
   font-family: serif;
   color: #052049;
   font-size: 14pt;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  margin: auto;
+}
+
+body{
+  margin-top: 0;
 }
 
 .contenedor_logoslogan{
@@ -26,7 +31,8 @@
   font-family: 'Krona One', sans-serif;
   font-size:20pt;
   color: rgb(6, 216, 216);
-
+  text-shadow: 2px 2px 2px grey;
+  margin-left: 16%;
 }
 
 
@@ -35,6 +41,9 @@
   height: 50px;
   font-family: 'Krona One', sans-serif;
   font-size:25pt;
+  text-shadow: 2px 2px 2px grey;
+  color:#000080;
+  margin-right: 16%;
 }
 
 section{
@@ -51,29 +60,25 @@ section{
   background-image: url(imagenes/bannerplayita.png);
   background-color: rgb(141, 218, 241); 
   background-size: cover;
-  padding: 100px 0px 0px 0px;
   }
 
 
 
   
   .covid{
-      background-color: #d24040;
-      background-image: -webkit-linear-gradient(0,#dd4b39,#d24040);
-      border-radius: 4px;
-      display: flex;
-      justify-content: center;
-      width: 16%;
-      padding: 4px;
-      letter-spacing: 0.5px;
-      margin-left: 30px;
-      margin-top: 20px;
+    background-color: #d24040;
+    background-image: -webkit-linear-gradient(0,#dd4b39,#d24040);
+    border-radius: 4px;
+    display: inline-flex;
+    padding: 4px;
+    letter-spacing: 0.5px;
+    margin-left: 30px;
+    margin-top: 30px;
   }
   
   .covidimg{
-      display: flex;
-      justify-content: center;
-      border: 0;
+    display: block;
+    border: 0;
   }
   
   .logocovid{
@@ -112,10 +117,16 @@ section{
   border-style: none;
   }
 
-  seccion{
-  width: 100%;
-  height: 500px;
-  }
+  .piepage{
+    background: #e7f5f3;
+    display: flex;
+    justify-content: space-around;
+   }
+
+   .contenedorphotos{
+    display: flex;
+    justify-content: space-between;
+   }
   
   /*
   .ciudades{
@@ -160,7 +171,5 @@ section{
   }
   
   
-  .piepage{
-   background:rgb(202, 219, 218);
-  }*/
+ */
   
