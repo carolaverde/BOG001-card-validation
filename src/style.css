@@ -104,8 +104,7 @@ section{
    margin-right: 100px;
    padding: 10px;
   }
-  
-  
+    
   
   main{
     display: flex;
@@ -120,86 +119,41 @@ section{
   transform: scale(1.2);
 }
 
-   
-  /*.contenedorphotos{
-
+footer{
+  background-color: #e7f5f3;
+  margin-top: 100px;
   display: flex;
-  justify-content: space-around;
-  align-items: center;
-    
-  }*/
-   
-  
-  /*.photo1{
-    background-color: brown;
-    
-  }
-
-  .photo2{
-    background-color: chartreuse;
-  }
-
-  .photo3{
-    background-color: darkcyan;
-  }
-  
-  .photo4{
-    background-color: darkorange;
-  }
-  
-  .photo1 .photo2 .photo3{
-    width: 50px;
-    height: 50px;
-    
-  }
-
-  .piepage{
-    
-    background:rgb(202, 219, 218);
+  justify-content: space-around ;
    }
 
-  /*
-  .ciudades{
-    margin-top: 100px;
+
+  .totalredes{
+  display: flex;
+  align-items: center;
+  align-content: center;
+ }
+
+ .redessociales{
+   padding: 10px;
+ }
+
+  .empresasapoyan{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    /*flex-direction: column;*/
+        
+  }
+
+  .apoyapres{
+    margin: 5px;
+    
   }
   
-  .nuqui{
-    display: inline-block;
-    width: 270px;
-    margin-left: 70px;
+  .apoyavivecolombia{
+   margin: 5px;
   }
-  
-  .cristal{
-    float: right;
-    width: 270px;
+
+  .apoyasuperindustriaycio{
+    margin: 5px;
   }
-  
-  .leticia{
-    float: right;
-    width: 270px;
-  }
-  
-  .guajira{
-    float: right;
-    width: 270px;
-  }
-  
-  #dia{
-    display: block;
-  }
-  
-  #luna{
-    display: block;
-  }
-  
-  #precio{
-    display: block;
-  }
-  
-  #cama{
-    display: block;
-  }/*
-  
-  
- */
-  

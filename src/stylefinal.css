@@ -1,20 +1,86 @@
-.info{
-    background:rgb(202, 219, 218);
-    width:60%;
-    margin: auto;
-    text-align: center;
+#box{
+  width: 60%;
+  height: 36px;
+  background: #e7f5f3;
+  font-family: serif;
+  color: #052049;
+  font-size: 14pt;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+}
+
+body{
+  margin-top: 0;
+}
+
+.contenedor_logoslogan{
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+ 
+}
+
+.logo{
+  width: 300px;
+  height: 50px;
+  font-family: 'Krona One', sans-serif;
+  font-size:20pt;
+  color: rgb(6, 216, 216);
+  text-shadow: 2px 2px 2px grey;
+  margin-left: 16%;
+}
+
+
+.slogan{
+  width: 300px;
+  height: 50px;
+  font-family: 'Krona One', sans-serif;
+  font-size:25pt;
+  text-shadow: 2px 2px 2px grey;
+  color:#000080;
+  margin-right: 16%;
+}
+  
+  
+  
+footer{
+  background-color:#e7f5f3;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+  .totalredes{
+  display: flex;
+  align-items: center;
+  align-content: center;
+ }
+
+ .redessociales{
+   padding: 10px;
+ }
+
+  .empresasapoyan{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    /*flex-direction: column;*/
+        
+  }
+
+  .apoyapres{
+    margin: 5px;
+    
   }
   
-  body{
-    margin-top: 0px;
+  .apoyavivecolombia{
+   margin: 5px;
   }
-  
-  #whatsapp{
-  margin-left: 30px;
-  margin-right: 30px; 
+
+  .apoyasuperindustriaycio{
+    margin: 5px;
   }
-  
-  .piepage{
-   background:rgb(202, 219, 218);
-  }
-  
