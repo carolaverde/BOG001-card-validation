@@ -105,18 +105,10 @@ section{
   main{
     display: flex;
     justify-content: space-around;
+    align-items: center;
    
-
 }
-
-  /*.contenedorphotos{
-
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-    
-  }*/
-   
+ 
   
   .photo1{
     background-color: brown;
@@ -134,11 +126,17 @@ section{
   .photo4{
     background-color: darkorange;
   }
-  /*.photo1 .photo2 .photo3{
+  
+  .photo1 .photo2 .photo3{
     width: 50px;
     height: 50px;
-    }
+    
+  }
 
+  .piepage{
+    
+    background:rgb(202, 219, 218);
+   }
 
   /*
   .ciudades{
@@ -180,10 +178,8 @@ section{
   
   #cama{
     display: block;
-  }
+  }/*
   
   
-  .piepage{
-   background:rgb(202, 219, 218);
-  }*/
+ 
   
