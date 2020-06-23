@@ -7,11 +7,15 @@ function final() {
   //console.log("Numero de tarjeta es: " + numero);
   let resultado = validator.isValid(numero);
   //console.log("Resultado es: " + resultado);
+  let numeromaskify = validator.maskify(numero);
+  let resultadoFinal = document.getElementById("resultadofinal");
   if (resultado == true) {
-    alert("Gracias por su compra");
+    //alert("Gracias por su compra");
+    resultadoFinal.textContent="Tarjeta " + numeromaskify + " válida. Gracias por su compra";
     return true;
   } else {
-    alert("Tarjeta de crédito no valida");
+    resultadoFinal.textContent="Tarjeta " + numeromaskify + " no válida, por favor ingrese nuevamente sus datos";
+    //alert("Tarjeta de crédito no valida");
     return false;
   }
 
