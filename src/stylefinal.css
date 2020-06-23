@@ -43,8 +43,28 @@ body{
   color:#000080;
   margin-right: 16%;
 }
+ 
+main{
+  display: flexbox;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.contenedortarjeta{
+padding: 100px;
+display: flex;
+justify-content: center;
+
+}
+
   
-  
+.formulario{
+  display: flex;
+  justify-content: space-around; 
+
+
+}
   
 footer{
   background-color:#e7f5f3;
