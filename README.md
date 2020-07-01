@@ -86,7 +86,7 @@ La interfaz le permite al usuario ingresar el número de la tarjeta de crédito 
 
 * Luego de recibir feedback, se realizó el prototipo final.
 
-![Prototipo](/BOG001-card-validation/imgreadme/prototipoagencia1.jpg)
+![Prototipo](/imgreadme/prototipoagencia1.jpg)
 
 * Al revisar los principios básicos de diseño y al hacer benchmarking fuimos conscientes que la página no presentaba todos los requerimientos para los usuarios y se decide  cambiar la cantidad de vistas a dos, permitiendo una mejora en el manejo de estetica y tiempo de lectura del usuario, permitiendo que el proceso de selección de plan de viaje y compra sea ágil.
 
