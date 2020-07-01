@@ -82,7 +82,7 @@ La interfaz le permite al usuario ingresar el número de la tarjeta de crédito 
 
      - Cuarta vista, página de agradecimiento por la compra y fotos y textos con sitios de interes al lugar donde eligio viajar. 
 
-![Sketch Inicial](/BOG001-card-validation/imgreadme/prototipoagencia1.jpg)
+![Sketch Inicial](https://github.com/carolaverde/BOG001-card-validation/blob/master/src/imgreadme/prototipo%20agencia1.jpg)
 
 * Luego de recibir feedback, se realizó el prototipo final.
 
