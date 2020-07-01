@@ -82,11 +82,11 @@ La interfaz le permite al usuario ingresar el número de la tarjeta de crédito 
 
      - Cuarta vista, página de agradecimiento por la compra y fotos y textos con sitios de interes al lugar donde eligio viajar. 
 
-![Sketch Inicial](https://github.com/carolaverde/BOG001-card-validation/blob/master/src/imgreadme/prototipo%20agencia1.jpg)
+![Sketch Inicial](https://github.com/carolaverde/BOG001-card-validation/blob/master/src/imgreadme/sketch.jpg)
 
 * Luego de recibir feedback, se realizó el prototipo final.
 
-![Prototipo](/imgreadme/prototipoagencia1.jpg)
+![Prototipo](https://github.com/carolaverde/BOG001-card-validation/blob/master/src/imgreadme/prototipo%20agencia1.jpg)
 
 * Al revisar los principios básicos de diseño y al hacer benchmarking fuimos conscientes que la página no presentaba todos los requerimientos para los usuarios y se decide  cambiar la cantidad de vistas a dos, permitiendo una mejora en el manejo de estetica y tiempo de lectura del usuario, permitiendo que el proceso de selección de plan de viaje y compra sea ágil.
 
@@ -95,9 +95,9 @@ La interfaz le permite al usuario ingresar el número de la tarjeta de crédito 
 
 - Segunda vista, se encuentra la página de compra y validación de la tarjeta de crédito con los requerimientos del proyecto.
 
-![Prototipo](/BOG001-card-validation/imgreadme/prototipoagenciafinal1.jpg)
+![Prototipo](https://github.com/carolaverde/BOG001-card-validation/blob/master/src/imgreadme/prototipo%20agenciafinal1.jpeg)
 
-![Prototipo](/BOG001-card-validation/imgreadme/prototipoagenciafinal2.jpg)
+![Prototipo](https://github.com/carolaverde/BOG001-card-validation/blob/master/src/imgreadme/prototipo%20agenciafina2.jpeg)
 
 
 
